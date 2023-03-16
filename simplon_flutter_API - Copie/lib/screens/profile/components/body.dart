@@ -18,14 +18,10 @@ class Body extends StatelessWidget {
           SizedBox(height: SizeConfig.defaultSize * 2), //20
           ProfileMenuItem(
             iconSrc: "assets/icons/bookmark_fill.svg",
-            title: "Saved Recipes",
+            title: "Saved Briefs",
             press: () {},
           ),
-          ProfileMenuItem(
-            iconSrc: "assets/icons/chef_color.svg",
-            title: "Super Plan",
-            press: () {},
-          ),
+
           ProfileMenuItem(
             iconSrc: "assets/icons/language.svg",
             title: "Change Language",
