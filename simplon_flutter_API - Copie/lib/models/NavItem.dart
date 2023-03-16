@@ -35,23 +35,14 @@ class NavItems extends ChangeNotifier {
       icon: "assets/icons/home.svg",
       destination: HomeScreen()
     ),
+
     NavItem(
       id: 2,
-      icon: "assets/icons/list.svg",
-      destination: HomeScreen(),
-    ),
-    NavItem(
-      id: 3,
       icon: "assets/icons/camera.svg",
       destination: HomeScreen(),
     ),
     NavItem(
-      id: 4,
-      icon: "assets/icons/chef_nav.svg",
-      destination: HomeScreen(),
-    ),
-    NavItem(
-      id: 5,
+      id: 3,
       icon: "assets/icons/user.svg",
       destination: ProfileScreen(),
     ),

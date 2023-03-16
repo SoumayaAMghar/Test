@@ -17,7 +17,7 @@ class BriefBundelCard extends StatelessWidget {
       onTap: () { press;},
       child: Container(
         decoration: BoxDecoration(
-          color: Colors.grey,
+          color: Colors.grey[200],
           borderRadius: BorderRadius.circular(defaultSize * 1.8), //18
         ),
         child: Row( 
@@ -33,14 +33,14 @@ class BriefBundelCard extends StatelessWidget {
                       briefBundle.title,
                       style: TextStyle(
                           fontSize: defaultSize * 2.2, //22
-                          color: Colors.white),
+                          color: Colors.black),
                       maxLines: 2,
                       overflow: TextOverflow.ellipsis,
                     ),
                     SizedBox(height: defaultSize * 0.5), // 5
                     Text(
                       briefBundle.description,
-                      style: TextStyle(color: Colors.white54),
+                      style: TextStyle(color: Colors.grey[900]),
                       maxLines: 2,
                       overflow: TextOverflow.ellipsis,
                     ),

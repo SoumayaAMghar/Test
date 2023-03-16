@@ -379,7 +379,7 @@
             "outputFile": "com.example.myapp-merged_res-11:/values-night-v8_values-night-v8.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\yc\\Desktop\\simplon_flutter_API - Copie\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "C:\\Users\\yc\\Desktop\\test\\simplon_flutter_API - Copie\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
@@ -662,7 +662,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\yc\\Desktop\\simplon_flutter_API - Copie\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\yc\\Desktop\\test\\simplon_flutter_API - Copie\\android\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

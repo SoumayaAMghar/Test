@@ -58,14 +58,14 @@ class MyBottomNavBar extends StatelessWidget {
   }
 
   IconButton buildIconNavBarItem(
-      {required icon,required Function press, bool isActive = false}) {
+      {required icon,required VoidCallback press, bool isActive = false}) {
     return IconButton(
       icon: SvgPicture.asset(
         icon,
         color: isActive ? kPrimaryColor : Color(0xFFD1D4D4),
         height: 22,
       ),
-      onPressed: () { press;},
+      onPressed:press,
     );
   }
 }

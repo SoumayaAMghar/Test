@@ -5,7 +5,7 @@ import 'package:myapp/models/BriefBundle.dart';
 import 'package:http/http.dart' as http;
 
 class BriefsService {
-  static const API = 'http://192.168.9.69:7070';
+  static const API = 'http://172.23.128.1:7070';
   //static const headers = {'apiKey': '08d771e2-7c49-1789-0eaa-32aff09f1471'};
 
   Future<APIResponse<List<BriefBundle>>> getBriefsList() {
